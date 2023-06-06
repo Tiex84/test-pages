@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<!-- HEAD
+nell'head si inseriscono i metatag, le informazioni utili
+non vengono visualizzate dall'utente
+sono informazioni funzionali ai motori di ricerca e social
+importanti anche per tipo di carattere (occidentale, giapponese, ...)
+e anche per la visualizzazione e adattamento a device
+-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+
+	<!-- TITLE
+	informazione per google, anteprima
+	SEO - leggibilità utente
+	titolo diverso per ogni pagina
+	-->
+	<title>Uso software per il web - Esercitazine 18 aprile</title>
+	<meta name="description" content="Questa è la descrizione del mio sitobellissimo e inserisco anche la keywords così mi trovano tutti">
+
+	<meta name="keywords" content="parolachiave, sitobellissimo">
+
+
+	<!-- META PROPERTY
+	anteprima di condivisione Open Graph creata da Facebook:
+	-->
+	<meta property="og:title" content="The Rock" />
+	<meta property="og:type" content="video.movie" />
+	<meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />
+	<meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg" />
+
+	<!--schema.org per i rich snippet-->
+
+
+
+	<!--inserire favicon o qualsiasi immagine da percorso con href
+		percorso assoluto - fisso statico sul pc
+		percorso relativo - cartella 
+	-->
+
+	<link rel="icon" type="image/png" href="img/favicon.png" />
+
+
+	<!--inserire link stylesheet al css
+		vecchio modo style - ma più macchinoso
+		tutti i formati meglio inserirli in un unico file e creare un collegamento
+	-->
+
+
+
+   <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+
+	<style>
+		body {
+			background: red;
+		}
+	</style>
+
+</head>
+
+
+<body style="background: green;">
+
+		<header>
+			<div>
+				<img src="img/favicon.png" width="10%">
+			</div>
+			
+			<nav id="pippo">
+				<ul class="menu nav-dark">
+					<li class="menu-item ">
+						<a class="active" href="index.html"> Home </a>
+					</li>
+					<li class="menu-item">
+						<a href="about.html"> About </a>
+					</li>
+					<li class="menu-item">
+						<a href="contacts.html"> Contacts </a>
+					</li>
+				</ul>
+			</nav>
+
+		</header>
+
+
+		<main>
+			<article><img src="img/favicon.png" width="25%"></article>
+			<article><img src="img/favicon.png" width="25%"></article>
+			<article><img src="img/favicon.png" width="25%"></article>
+			<article><img src="img/favicon.png" width="25%"></article>
+
+			<section>
+				<div>
+					<img src="img/sorriso.jpeg" width="30%"> 
+				</div>
+				<div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</section>
+
+         <table border="1">
+
+
+            <caption>Titolo della tabella</caption>
+            
+            <thead>
+               <tr>
+                  <th>Nome</th>
+                  <th>Cognome</th>
+                  <th>Età</th>
+               </tr>
+            </thead>
+
+            <tbody>
+               <tr>
+                  <td>Mario</td>
+                  <td>Rossi</td>
+                  <td>38</td>
+               </tr>
+               <tr>
+                  <td>Luca</td>
+                  <td>Verdi</td>
+                  <td>25</td>
+               </tr>
+            </tbody>
+
+            <tfoot>
+               <td colspan="2">Totale</td>
+               <td>10</td>
+            </tfoot>
+
+         </table>
+
+
+			
+		</main>
+
+
+		<footer>
+			<p>Ciao e grazie</p>
+		</footer>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
